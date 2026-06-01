@@ -1,3 +1,4 @@
 flask                  # Backend web framework
 google-genai           # Gemini API SDK
 python-dotenv          # Load API key from .env
+gunicorn
