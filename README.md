@@ -1,4 +1,15 @@
-AI Voice Assistant using Google Gemini API 🎙️🤖
+---
+title: AI Voice Assistant
+emoji: 🎙️
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
+
+# AI Voice Assistant
+
+AI-powered Voice Assistant chatbot built using Flask and Google Gemini API with real-time speech recognition, conversational AI responses, and text-to-speech interaction.
 
 An AI-powered Voice Assistant chatbot built using Flask and Google Gemini API that supports:
 
