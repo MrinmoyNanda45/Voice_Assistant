@@ -211,10 +211,21 @@
         };
 
         // Start Recording Button
-        startRecordBtn.addEventListener("click", () => {
+        startRecordBtn.addEventListener("click", async () => {
 
-            recognition.start();
-        });
+    try {
+
+        await navigator.mediaDevices.getUserMedia({ audio: true });
+
+        recognition.start();
+
+    } catch (error) {
+
+        alert("Microphone permission denied.");
+
+        console.error(error);
+    }
+});
 
         // Update Conversation History
         function updateConversationHistory(history) {
